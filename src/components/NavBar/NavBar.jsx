@@ -4,7 +4,6 @@ import {useEffect, useState, useContext  } from 'react';
 import { Link } from 'react-router-dom';
 
 import useDebounce from '../hooks/useDebounce';
-// import axios from 'axios';
 import Aos from 'aos';
 import 'aos/dist/aos.css'; 
 
@@ -71,25 +70,7 @@ function NavBar () {
             
         <div className="navbar-wrapper"  data-aos="flip-up">
 
-            {/* <Navbar expand="lg" className="bg-body-tertiary">
-                <Container fluid>
-                    <Navbar.Brand className='logo'>
-                        <Link to={"/"}>Movies Hub</Link>
-                    </Navbar.Brand>
-                    <Form className="d-flex">
-                        <Form.Control
-                        type="search"
-                        id="search-bar"
-                        placeholder="Search Here"
-                        className="me-2"
-                        aria-label="Search"
-                        />
-                        <Button variant="outline-primary" onClick={updateTheme} >
-                            Dark Mode
-                        </Button>
-                    </Form>
-                </Container>
-            </Navbar> */}
+            
 
 
         <div className="container-fluid  bg-body-tertiary p-3">
@@ -123,8 +104,8 @@ function NavBar () {
             
             <div className="container input-parent">
                 <div className="row">
-                    <div className="col-lg-6">
-                        <div id='result-list' style={{ display: (autoList) ? "block" : "none"}}>
+                    <div className="col-lg-6 ">
+                        <div id='result-list'  style={{ display: (autoList) ? "block" : "none"}}>
                         <div  className='auto-complete'>Search for another item...{searchTerm}</div>
                         {movieList.length > 0 && movieList.map((movie) =>  <div  onMouseDown={() => handleAutoComplete(movie.imdbID)}
                         key={movie.imdbID} className='auto-complete'>{movie.Title}</div>)}

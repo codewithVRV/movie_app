@@ -13,7 +13,6 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 function MovieCard ({ Poster, Title, Year, id }) {
-    // console.log(id)
 
     const navigator = useNavigate()
 
@@ -40,23 +39,6 @@ function MovieCard ({ Poster, Title, Year, id }) {
                 </Card.Body>
             </Card>
 
-        {/* <div className="center-card">
-            <div className="movie-image">
-                {/* <img  src={Poster} alt="harray"/> */}
-                {/* <LazyLoadImage  src={Poster}
-                                key={Poster}
-                                placeholderSrc={ReactSVG}
-                                alt="Image"
-                                />
-                </div>
-            </div>
-            <div className="movie-title">
-                <h4>{Title}</h4>
-            </div> */}
-            
-        {/* <div>
-            <span id="release-date">Release Date: <b>{Year}</b></span>&nbsp;
-        </div> */}
 
         </div>
             
