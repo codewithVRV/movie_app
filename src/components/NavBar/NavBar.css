@@ -1,0 +1,96 @@
+a{text-decoration: none;}
+
+.navbar-wrapper {
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: var(--nav-bar-color);}
+
+.theme-icon{color: var(--input-text-color); font-size: 1.5rem; cursor: pointer;}
+.navbar-wrapper .logo a{
+    color: #000 !important;
+    font-size: xx-large; 
+    letter-spacing: 5px;}
+
+/* .navbar-wrapper div:nth-child(2) {display: flex; flex-basis: 60%;}
+.navbar-wrapper div:nth-child(2) input {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--nav-input-color)} */
+
+.search-bar {
+    position: relative;
+    color: var(--input-text-color);
+    font-size: larger;
+    border: none;
+    background-color: transparent;
+    border: 1px solid #ccc;}
+
+
+.input-parent {
+    position: relative;
+}
+
+#result-list {
+    position: absolute;
+    display: none;
+    width: 74.5%;
+    left: 9.1rem;
+    background-color: var(--list-card-color);
+    color: var(--nav-bar-color);
+    max-height: 400px;
+    overflow-y: scroll !important;
+    z-index: inherit;
+}
+
+#result-list > .auto-complete {
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    padding: 10px;
+    /* margin-bottom: .4rem; */
+    border-bottom: 1px solid var(--nav-bar-color);}
+
+.movie-base-title > a {color: var(--input-text-color); text-decoration: none;}
+.auto-complete:hover {background-color: var(--list-hover-color);}
+
+button{
+    font-size: 15px !important;
+    padding: 3px !important;
+}
+
+#toggle-btn {
+    /* padding: 1px 5px !important; */
+    background-color: brown;
+    /* font-weight: bold; */
+    border: none;
+    outline: none;
+}
+
+
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px){
+/* 
+    .navbar-wrapper div:nth-child(2) {display: flex; flex-basis: 100%;}
+    .dark-mode-icon{display: flex; flex-basis: 100%;}
+    .navbar-wrapper div:nth-child(1) {flex-basis: 100%;}
+   */
+  }
+
+
+
+@media (300px <= width <= 600px){
+    #btn-mode {
+        margin-top: 1rem;
+    }
+    #result-list{
+        width: 60%;
+    }
+}
+@media (600px <= width <= 775px){
+    #btn-mode {
+        margin-top: 1rem;
+    }
+    #result-list{
+        width: 60%;
+    }
+}

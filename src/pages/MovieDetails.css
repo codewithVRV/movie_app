@@ -1,0 +1,50 @@
+/* .movie-details-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:  3rem;
+    height: 82vh;}
+
+.movie-card {flex-basis: 40%;}
+.movie-details {
+    flex-basis: 50%;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;}
+
+.movie-details > div {color: var(--input-text-color);}
+*/
+
+
+.movie-details{margin: 50px 0;}
+.plot, .actors, .genre-div{font-size: 22px;}
+.plot{padding-top: 10px;}
+.actors, .genre-div{margin: 20px 0;}
+.genre {
+    margin: 10px;
+    color: #fff;
+    border: none;
+    background-color: brown;
+    border-radius: 7px;
+    padding: 3px 30px 6px 30px;} 
+
+.plot, .actors, .genre-div, .rating{margin-right: 15px;}
+
+
+/* media quaries css start */
+@media screen and (min-device-width: 768px) and (max-device-width: 991px){
+    
+    .genre {margin: 3px; padding: 3px 7px 6px 7px;}
+        
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 425px){
+    
+    .movie-details {margin: 0;}
+    .genre {margin: 2px; padding: 3px 5px 6px 5px;}
+
+    .movie-card-wrapper .card{width: 100% !important;}
+    .plot, .actors, .genre-div{font-size: 16px;}
+    .plot, .actors, .genre-div, .rating {margin-right: 0;}
+}

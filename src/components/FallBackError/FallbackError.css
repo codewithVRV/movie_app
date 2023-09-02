@@ -1,0 +1,30 @@
+.error-page-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 88vh;
+}
+
+.error-page-wrapper h1 {
+    text-align: center;
+    margin-top: 1rem;
+    color: var(--input-text-color);
+}
+
+.error-page-wrapper button {
+    width: 10%;
+    padding: 10px 10px;
+    margin-left: 37rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    background-color: #BD2A2E;
+    border-radius: 20px;
+    color: var(--input-text-color);
+    cursor: pointer;
+    transition: all ease linear 1s;
+}
+
+
+.error-page-wrapper button:hover {
+    scale: 1.2;
+}
