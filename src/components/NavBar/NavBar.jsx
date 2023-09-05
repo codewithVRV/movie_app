@@ -15,11 +15,11 @@ import "../../App.css"
 
 import ThemeContext from '../../context/ThemeContext';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+// import Button from 'react-bootstrap/Button';
+// import Container from 'react-bootstrap/Container';
+// import Form from 'react-bootstrap/Form';
+// import Nav from 'react-bootstrap/Nav';
+// import Navbar from 'react-bootstrap/Navbar';
 
 // font awesom icons
 
@@ -104,8 +104,8 @@ function NavBar () {
             
             <div className="container input-parent">
                 <div className="row">
-                    <div className="col-lg-6 ">
-                        <div id='result-list'  style={{ display: (autoList) ? "block" : "none"}}>
+                    <div className="col-lg-6 input-parent-child">
+                        <div id='result-list' className='result-list' style={{ display: (autoList) ? "block" : "none"}}>
                         <div  className='auto-complete'>Search for another item...{searchTerm}</div>
                         {movieList.length > 0 && movieList.map((movie) =>  <div  onMouseDown={() => handleAutoComplete(movie.imdbID)}
                         key={movie.imdbID} className='auto-complete'>{movie.Title}</div>)}

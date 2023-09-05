@@ -25,9 +25,9 @@ function MovieDetails () {
 
     useEffect(() => {
         downloadMovie();
-        if(Math.random() > 0.5) {
-            throw "error"
-        }
+        // if(Math.random() > 0.5) {
+        //     throw "error"
+        // }
         // throw 'error'
 
     }, [id]);

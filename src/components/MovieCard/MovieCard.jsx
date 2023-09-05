@@ -9,7 +9,6 @@ import ReactSVG from "../../assets/react.png"
 
 import {LazyLoadImage} from "react-lazy-load-image-component"
 import { useEffect } from "react";
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 function MovieCard ({ Poster, Title, Year, id }) {

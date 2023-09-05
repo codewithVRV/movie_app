@@ -31,17 +31,17 @@ a{
     position: relative;
 }
 
-#result-list {
+.result-list {
     position: absolute;
     display: none;
-    width: 74.5%;
-    left: 9.1rem;
+    width: 60%;
+    left: 19rem;
     background-color: var(--list-card-color);
     color: var(--nav-bar-color);
-    max-height: 400px;
+    max-height: 350px;
+    border-radius: 10px;
     overflow-y: scroll !important;
-    z-index: 9;
-
+    z-index: 9 !important;
 }
 
 #result-list > .auto-complete {

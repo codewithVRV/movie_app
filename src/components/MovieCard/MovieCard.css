@@ -17,14 +17,9 @@
     margin-bottom: 40px;
     border: none;
     border-radius: 12px;
-    box-shadow: 5px 5px 30px 5px rgba(0, 17, 255, 0.2);
-    
-   
-}
+    box-shadow: 5px 5px 30px 5px rgba(0, 17, 255, 0.2);}
 
-.card-body{
-    padding: 8px;
-}
+.card-body{padding: 8px;}
 .card-title{
     padding-top: 8px;
     height: 75px;

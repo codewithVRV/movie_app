@@ -1,26 +1,21 @@
-/* .movie-details-wrapper {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top:  3rem;
-    height: 82vh;}
 
-.movie-card {flex-basis: 40%;}
-.movie-details {
-    flex-basis: 50%;
-    font-size: x-large;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;}
+.movie-details{
+    margin: 50px 0;
+    
+}
 
-.movie-details > div {color: var(--input-text-color);}
-*/
+.plot, .actors, .genre-div{
+    font-size: 22px;
+
+}
+.plot{
+    padding-top: 10px;
+}
+.actors, .genre-div{
+    margin: 20px 0;
+}
 
 
-.movie-details{margin: 50px 0;}
-.plot, .actors, .genre-div{font-size: 22px;}
-.plot{padding-top: 10px;}
-.actors, .genre-div{margin: 20px 0;}
 .genre {
     margin: 10px;
     color: #fff;
@@ -29,7 +24,10 @@
     border-radius: 7px;
     padding: 3px 30px 6px 30px;} 
 
-.plot, .actors, .genre-div, .rating{margin-right: 15px;}
+.plot, .actors, .genre-div, .rating{
+    margin-right: 15px;
+}
+
 
 
 /* media quaries css start */
